@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Name: Datasource
+Bundle-ManifestVersion: 2
+Bundle-Description: cloudnil
+Bundle-SymbolicName: com.cloudnil.framework.datasource
+Import-Package: com.mysql.jdbc;version="[5.1.6,5.1.6]",
+ javax.sql,
+ org.apache.commons.dbcp;version="[1.2.2.osgi,1.2.2.osgi]",
+ org.apache.commons.pool;version="[1.3.0,1.3.0]"
+

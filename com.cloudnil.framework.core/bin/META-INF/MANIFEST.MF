@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.1.0.M04
+Bundle-Name: Core
+Bundle-ManifestVersion: 2
+Bundle-Description: cloudnil
+Bundle-SymbolicName: com.cloudnil.framework.core
+Import-Package: com.cloudnil.framework.model,
+ javax.persistence;version="[1.0.0,1.0.0]",
+ javax.sql
+Import-Bundle: com.springsource.org.hibernate.annotations;version="[3.4.0.GA,3.4.0.GA]",
+ com.springsource.org.hibernate;version="[3.3.1.GA,3.3.1.GA]",
+ com.springsource.org.hibernate.ejb;version="[3.4.0.GA,3.4.0.GA]",
+ com.springsource.org.aopalliance;version="[1.0.0,1.0.0]",
+ com.springsource.net.sf.cglib;version="[2.1.3,2.1.3]",
+ com.springsource.org.hibernate.annotations.common;version="[3.3.0.ga,3.3.0.ga]"
+Import-Library: org.springframework.spring;version="[3.0.5.RELEASE,3.0.5.RELEASE]"
+Export-Package: com.cloudnil.framework.core.dao,
+ com.cloudnil.framework.core.dao.impl,
+ com.cloudnil.framework.core.service,
+ com.cloudnil.framework.core.service.impl
+

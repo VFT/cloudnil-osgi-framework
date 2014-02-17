@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Name: Model
+Bundle-ManifestVersion: 2
+Bundle-Description: cloudnil
+Bundle-SymbolicName: com.cloudnil.framework.model
+Import-Package: javax.persistence;version="[1.0.0,1.0.0]"
+Import-Bundle: com.springsource.org.hibernate.annotations;version="[3.4.0.GA,3.4.0.GA]"
+Export-Package: com.cloudnil.framework.model
