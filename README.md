@@ -1,4 +1,4 @@
 cloudnil-osgi-framework
 =======================
 
-A OSGi Enterprise Framework
+A OSGi Enterprise Framework with SpringMVC+Hibernate+Virgo.
